@@ -1,0 +1,145 @@
+body
+{   background-image: url("https://i.travelapi.com/lodging/8000000/7870000/7869700/7869648/601b5f92_z.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 20px groove green;
+    margin:0%;
+
+}
+.boxparent
+{
+    display: flex;
+}
+
+
+#box1 
+{  
+    background-color: black;
+    margin: 30px 20px 0px 10px;   
+    width: 225px;
+    height: 60px;
+    padding: 25px;
+    border: 8px solid red;
+    border-radius: 25px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    font-size: larger;
+    flex-direction: row;
+    display: inline-block;
+}
+#box2
+{
+    background-color: black;
+    border: 8px solid red;
+    width: 400px;
+    margin-top:60px;
+    margin-left: -60px; 
+    padding: 20px;
+    border-radius: 70px;
+    color:white;
+    font-family: serif;
+    font-style: italic;
+    font-size:20px ;
+    display:inline-block; 
+    word-spacing: 10px;
+    
+}
+#box3
+{
+    border-radius: 25px ;
+    border: 8px solid red;
+    margin: 30px 25px 0px 390px; 
+    width: 225px;
+    padding: 25px;
+    background-color: black;
+    font-family: serif;
+    font-style: italic;
+    color: white;
+    font-size: larger;
+    line-height: 20px;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+}
+#circleform
+{
+    display: flex;
+}
+.circle
+{   
+    text-align: center;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    margin: 170px 0px 0px 50px;
+    padding: 60px;
+    background-color:teal;
+    border: 10px solid grey;
+    line-height: 30px;
+    font-family: serif;
+    font-weight: bolder;
+    font-style: italic;
+    color:black;
+    word-spacing: 4px;
+    display: inline-block;
+    
+}
+
+#form 
+{
+    
+    margin:40px 30px 40px 160px;
+    width: 300px;
+    padding: 50px;
+    line-height: 26px;
+    text-align: center;
+    background-color:azure;
+    color:red;
+    border: 10px dashed red;
+    
+}
+
+.box4
+{
+    border-radius: 45px;
+    border: 8px solid red;
+    width: 400px;
+    margin:auto;
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    font-family: serif;
+    font-style: italic;
+    color:white;
+    
+}
+ 
+/*---------------------------------------------------------*/
+#menucard
+{
+    
+    margin:auto;
+    width:1000px;
+    border-radius: 25px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}   
+.flex_items
+{
+    /*flex-grow:1;*/
+    color: navy;
+    background-color: aqua;
+    width:250px;
+    height: 240px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+}
